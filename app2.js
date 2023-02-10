@@ -89,6 +89,7 @@ function addItemList(e) {
         priceItem.value = "";
         descItem.value = "";
         alertDisplay("Başarıyla Eklendi!");
+        reloadWindows();
     } else {
         alertDisplay("Kaydedilecek Veri Girmediniz.");
     };
@@ -151,7 +152,7 @@ function deleteCardItem() {
             listArea.innerHTML = "";
             localStorage.setItem("list", JSON.stringify(cardArray));
             getList();
-            // reloadWindows();
+            reloadWindows();
         });
     });
 };
@@ -187,6 +188,7 @@ function editCardItem() {
                         localStorage.setItem("list", JSON.stringify(cardArray));
                         listArea.innerHTML = "";
                         getList();
+                        reloadWindows();
                     });
                 };
             });

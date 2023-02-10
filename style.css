@@ -25,18 +25,6 @@ body {
     transition: 1s;
 }
 
-/* .empty-box {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(205, 180, 170);
-    border: 5px solid rgb(181, 162, 154);
-    border-radius: 0 0 0 10px;
-    position: absolute;
-    right: -5px;
-    top: -5px;
-    z-index: -1;
-} */
-
 .empty-box {
     width: 50%;
     height: 50%;
@@ -121,6 +109,48 @@ body {
 
 #deleteBtn:hover {
     color: rgb(255, 0, 0) !important;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border: 5px solid rgb(73, 58, 54) !important;
+    border-radius: 15px !important;
+}
+
+.card-header {
+    display: grid;
+    grid-template-columns: 90% 5% 5%;
+    justify-items: center;
+    border-bottom: 5px solid rgb(73, 58, 54) !important;
+}
+
+.card-header-trash {
+    font-size: 15px;
+    align-self:center;
+    cursor: pointer;
+}
+
+.card-header-edit {
+    font-size: 15px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.card-header-save {
+    font-size: 15px;
+    align-self: center;
+    cursor: pointer;
+    display: none;
+}
+
+.text-area {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    align-self: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -272,47 +302,7 @@ body {
     font-size: 1.2rem;
 }
 
-.card {
-    width: 100%;
-    text-align: center;
-    font-weight: bolder;
-    text-transform: capitalize;
-    border: 5px solid rgb(73, 58, 54) !important;
-    border-radius: 15px !important;
-}
 
-.card-header {
-    display: grid;
-    grid-template-columns: 90% 5% 5%;
-    justify-items: center;
-    border-bottom: 5px solid rgb(73, 58, 54) !important;
-}
-
-.card-header-trash {
-    font-size: 20px;
-    align-self: center;
-    cursor: pointer;
-}
-
-.card-header-edit {
-    font-size: 20px;
-    align-self: center;
-    cursor: pointer;
-}
-
-.card-header-save {
-    font-size: 20px;
-    align-self: center;
-    cursor: pointer;
-    display: none;
-}
-
-.text-area {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
-    align-self: center;
-}
 
 .btn-outline-info {
     background-color: #fbeee0 !important;

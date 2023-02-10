@@ -1,5 +1,6 @@
 # Stok-Listeleme
-Merhabalar.
+## Merhabalar.
+
 Bu projemde kullanıcıdan alınan veriler Local Storage üzerine kaydedilip kullanıcının ekranına gelmektedir. Daha sonraki oturumlarında da önceden kaydettiği verileri görebilen kullanıcı, kaydettiği verilerinin üzerinde düzenleme, silme ve toplu silme işlemleri yapabiliyor.
 
 ![Stok-Listeleme](https://user-images.githubusercontent.com/103066696/218101711-93bc70d9-a14c-4184-a045-b3fb93bbce35.jpg)
